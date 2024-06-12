@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.custom-gradient-border {
+  padding: 2px; /* Adjust the border thickness */
+  background: linear-gradient(90deg, #6527d6, #ad5ba0 70%, #1b78a3);
+  border-radius: 50%; /* Ensure the border is rounded */
+}
+
+.custom-gradient-border img {
+  border-radius: 50%; /* Ensure the image is rounded */
+}
+.custom-gradient {
+  padding: 2px; /* Adjust the border thickness */
+  background: linear-gradient(90deg, #6527d6, #ad5ba0 70%, #1b78a3);
+}
+progress {
+  width: 100%;
+  height: 25px;
+  appearance: none;
+  }
+  
+  
+  .en::-webkit-progress-bar,#sp::-webkit-progress-bar,#ge::-webkit-progress-bar{
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 10px rgba(255, 235, 255, 0.1), 5px 1px 7px 2px rgba(100, 200, 100, 0.2)
+}
+.en::-webkit-progress-value{
+  background: linear-gradient(90deg, #9462f1,  #5abae0);
+  border-radius: 10px;
+}
+.link-loader {
+  position: relative;
+}
+
+.link-loader::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: linear-gradient(to right, #a855f7, #06b6d4);
+  transition: width 0.3s ease-in-out;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
+.link-loader:hover::after {
+  width: 100%;
+}
