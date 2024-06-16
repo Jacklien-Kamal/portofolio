@@ -11,9 +11,9 @@ export default function Header() {
       <h1 className=" py-10 font-semibold text-xl lg:text-3xl ">
         J.K. Portofolio{" "}
       </h1>
-      <div className=" flex gap-8 text-xl font-semibold order-1 items-center justify-center">
-        <Link href="#" className="text-nowrap   link-loader">About me</Link>
-        <Link to="projects" className="text-nowrap ms-36 md:ms-10 link-loader">Projects</Link>
+      <div className=" flex gap-8 text-xl  font-semibold order-1 items-center md:justify-center">
+        <Link href="#" className="text-nowrap link-loader">About me</Link>
+        <Link to="projects" className="text-nowrap  md:ms-10 link-loader">Projects</Link>
         <Link to={'technologies'} className="text-nowrap link-loader">Technologies</Link>
       </div>
 

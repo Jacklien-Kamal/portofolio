@@ -4,7 +4,7 @@ export default function Technologies() {
     var techs=['Git','Npm','Node.js','SASS','WIX','unit testing']
   return (
 <>
-<section className='container py-10'>
+<section className='md:container py-10'>
 <h1 className=" text-2xl md:text-6xl font-bold my-10">Technologies</h1>
 <div className=' mx-auto'>
 <label className='font-bold text-xl md:text-3xl my-3'> HTML,CSS</label><br/>
@@ -23,7 +23,7 @@ export default function Technologies() {
 
 {techs.map((tech)=>(
 
-    <div className='flex items-center   '><div className='bg-gradient w-[26px] h-[26px] rounded-full me-6 '> </div><p className='text-3xl font-bold'>{tech}</p></div>
+    <div className='flex items-center   '><div className='bg-gradient w-[26px] h-[26px] rounded-full me-6 '> </div><p className='text-lg lg:text-2xl font-bold'>{tech}</p></div>
 ))}
 </div>
 
