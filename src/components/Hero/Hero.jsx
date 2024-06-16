@@ -20,7 +20,7 @@ function Hero() {
     <>
       {/* Profile */}
       <section className="hero py-20 bg-background ">
-        <div className="container grid sm:grid-cols-2 grid-cols-1 mt-10 gap-y-24">
+        <div className="container grid sm:grid-cols-2 grid-cols-1 mt-10 gap-y-24 md:gap-y-1">
           <div className="mt-10 gap-y-30 ">
             <div>
               <span className="text-[38px] md:text-7xl font-bold bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
@@ -36,7 +36,7 @@ function Hero() {
               </p>
             </div>
           </div>
-          <div className="order-3 md:order-2">
+          <div className="order-3 lg:order-2">
             <a
               href="./src/assets/JacklienKamalCV.pdf"
               download
