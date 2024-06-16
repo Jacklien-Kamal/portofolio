@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 export default function Header() {
@@ -11,17 +12,17 @@ export default function Header() {
         J.K. Portofolio{" "}
       </h1>
       <div className=" flex gap-8 text-xl font-semibold order-1 items-center justify-center">
-        <a href="#" className="text-nowrap ms-36 md:ms-10 link-loader">Projects</a>
-        <a href="#" className="text-nowrap link-loader">Technologies</a>
-        <a href="#" className="text-nowrap   link-loader">About me</a>
+        <Link href="#" className="text-nowrap   link-loader">About me</Link>
+        <Link to="projects" className="text-nowrap ms-36 md:ms-10 link-loader">Projects</Link>
+        <Link to={'technologies'} className="text-nowrap link-loader">Technologies</Link>
       </div>
 
       <div className="text-3xl flex gap-x-4 md:order-1 ms-10 ">
-        <a href="#" className="hover:scale-105" ><FaLinkedin />
+        <a href='https://www.linkedin.com/in/jacklin-kmal' className="hover:scale-105" ><FaLinkedin />
         </a>
-        <a  href="#" className="hover:scale-105"><FaGithub />
+        <a  href="https://github.com/settings/profile" className="hover:scale-105"><FaGithub />
         </a>
-        <a  href="#" className="hover:scale-105">
+        <a  href="https://www.facebook.com/profile.php?id=100005125537767&locale=ar_AR" className="hover:scale-105">
         <FaFacebook />
 
         </a>
