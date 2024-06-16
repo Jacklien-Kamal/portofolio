@@ -6,18 +6,25 @@ import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Projects from './components/Projects/Projects'
 import Technologies from './components/Technologies/Technologies'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import AppLayout from '../AppLayout'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const routes=createBrowserRouter([
+    { path:'/',element:<AppLayout/>,children:[
+      {index:true,element:<Hero/>},
+      {path:'projects',element:<Projects/>},
+      {path:'technologies',element:<Technologies/>},
+  
+    ]}
+  ])
   return (
     <>
-    <div className='bg-gray-900 bg-opacity-98 text-white '>
-      <Header/>
-      <Hero/>
-      <Projects/>
-      <Technologies/>
+    <div className='bg-background bg-opacity-98 text-white '>
+    <RouterProvider router={routes}/>
+
       </div>
+      
     </>
   )
 }
