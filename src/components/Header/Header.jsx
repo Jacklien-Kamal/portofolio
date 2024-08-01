@@ -10,17 +10,17 @@ export default function Header() {
       <h1 className=" py-10 font-semibold text-xl lg:text-3xl ">
         J.K. Portofolio{" "}
       </h1>
-      <div className="py-2 flex gap-8 text-xl  font-semibold order-1 items-center md:justify-center">
+      <div className="py-2 flex gap-12 md:gap-3 lg:gap-12 text-xl  font-semibold order-1 items-center md:justify-center">
         <a href="#" className="text-nowrap link-loader">About me</a>
-        <a href="#projects" className="text-nowrap  md:ms-10 link-loader">Projects</a>
+        <a href="#projects" className="text-nowrap   link-loader">Projects</a>
         <a href={'#technologies'} className="text-nowrap link-loader">Technologies</a>
       </div>
       <div className="text-3xl flex gap-x-4 md:order-1 ms-10 ">
-        <a href='https://www.linkedin.com/in/jacklin-kmal' className="hover:scale-105" ><FaLinkedin />
+        <a href='https://www.linkedin.com/in/jacklin-kmal' className="hover:scale-125" ><FaLinkedin />
         </a>
-        <a  href="https://github.com/settings/profile" className="hover:scale-105"><FaGithub />
+        <a  href="https://github.com/settings/profile" className="hover:scale-125"><FaGithub />
         </a>
-        <a  href="https://www.facebook.com/profile.php?id=100005125537767&locale=ar_AR" className="hover:scale-105">
+        <a  href="https://www.facebook.com/profile.php?id=100005125537767&locale=ar_AR" className="hover:scale-125 transation-100">
         <FaFacebook />
 
         </a>

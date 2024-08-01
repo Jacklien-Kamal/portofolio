@@ -22,7 +22,7 @@ function Hero() {
     <>
 
       {/* Profile */}
-      <section id="about" className=" pt-20 bg-background mt-20 ">
+      <section id="about" className=" pt-20 bg-background mt-20 xxs:w-[200%]">
         <div className=" md:container grid sm:grid-cols-2 grid-cols-1 mt-10 gap-y-24 md:gap-y-1">
           <div className="mt-10 gap-y-30 order-2 md:order-1">
             <div className="text-center md:text-left"> 
@@ -49,20 +49,20 @@ function Hero() {
             </a>
           </div>
 
-          <div className="group order-1  relative w-52 sm:w-[180px] md:w-[200px] md:h-[200px] lg:w-[500px] lg:h-[500px] mx-auto ">
+          <div className="group order-1  relative w-52 sm:w-[200px] md:w-[250px] md:h-[250px] lg:w-[500px] lg:h-[500px] mx-auto ">
             <img
               src="https://avatars.githubusercontent.com/u/159618517?s=400&u=2f08910d8387547f283ac704c842c1c75aed19bc&v=4"
               width={300}
               height={300}
               alt="Profile"
-              className="relative top- sm:mt-52 lg:mt-24 lg:left-20 custom-gradient-border rounded-full object-cover z-10 shadow-custom-light"
+              className="relative top- sm:mt-36  sm:-left-6 md:left-20 lg:mt-16 lg:left-20 custom-gradient-border rounded-full object-cover z-10 shadow-custom-light"
             />
 
             <img
               src="https://yarmoiseev.github.io/frontend_lp_portfolio/img/big-ellipse.svg"
-              className="absolute -left-28 top-16 sm:z-0 sm:-left-20  sm:top-64 lg:top-40 lg:-left-44 animate-spin group-hover:scale-105"
+              className="absolute -left-28 top-16 sm:z-0 sm:left-7 sm:top-64 md:-left-9  lg:top-28 lg:-left-44 animate-spin group-hover:scale-105"
             />
-            <div className="absolute sm:w-12 sm:h-20  -right-12 bottom-32 sm:-right-12 sm:bottom-2 md:-bottom-60 lg:w-36 lg:h-36 lg:bottom-12 lg:right-12 w-24 h-24 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 animate-spin group-hover:scale-105 shadow-custom-light"></div>
+            <div className="absolute sm:w-20 sm:h-20  -right-12 bottom-32 sm:right-32 sm:bottom-7 md:-bottom-52 md:-right-16 md:w-28 md:h-28 lg:w-36 lg:h-36 lg:bottom-24 lg:right-12 w-24 h-24 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 animate-spin group-hover:scale-105 shadow-custom-light"></div>
           </div>
         </div>
       </section>
