@@ -1,18 +1,19 @@
 import React from "react";
 import Header from "./src/components/Header/Header";
 import { Outlet } from "react-router-dom";
-import Footer from "./src/components/Technologies/Footer/Footer";
+import Footer from "./src/components/Footer/Footer";
 import StarsCanvas from "./src/components/canvas/StarBackground";
 
 export default function AppLayout() {
   return (
-    <>
+    <main  className=" bg-[#030014]  overflow-x-hidden "
+>
     <StarsCanvas/>
-      <Header />
-      <div className="container mx-5 bg-background">
+      <Header />/
+      <div>
         <Outlet />
       </div>
       <Footer />
-    </>
+    </main>
   );
 }

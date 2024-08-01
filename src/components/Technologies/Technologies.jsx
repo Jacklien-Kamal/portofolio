@@ -1,39 +1,94 @@
-import React from 'react'
+import {
+  Backend_skill,
+  Frontend_skill,
+  Full_stack,
+  Other_skill,
+  Skill_data,
+} from "../../../constants";
+import React from "react";
+import SkillDataProvider from "../SkillDataProvider";
 
-export default function Technologies() {
-    var techs=['Git','Tailwind','Bootstrap','Npm','Node.js','WIX','SASS','Gulp unit testing','React native']
+const Technologies = () => {
   return (
-<>
-<section id='technologies' className='md:container py-10'>
-<h1 className=" text-2xl md:text-6xl font-bold my-10">Technologies</h1>
-<div className=' mx-auto'>
-<label className='font-bold text-xl md:text-3xl my-3'> HTML,CSS</label><br/>
-            <progress className="en mb-10 mt-3" value="90" max="100" > </progress> <br/>
-           < label className='font-bold text-xl md:text-3xl my-3'>JavaScript </label><br/>
-            <progress className="en mb-10 mt-3" value="90" max="100" > </progress> <br/>
-           < label className='font-bold text-xl md:text-3xl my-3'> TypeScript</label><br/>
-            <progress className="en mb-10 mt-3" value="88" max="100" > </progress> <br/>
-           < label className='font-bold text-xl md:text-3xl my-3'>React</label><br/>
-            <progress className="en mb-10 mt-3" value="85" max="100" > </progress> <br/>
-            <label className='font-bold text-xl md:text-3xl '>Next.js</label><br/>
-            <progress className="en mb-10 mt-3" value="70" max="100" >  </progress> <br/>
-           < label className='font-bold text-xl md:text-3xl my-3'>Angular</label><br/>
-            <progress className="en mb-10 mt-3" value="60" max="100" > </progress> <br/>
-         
-    </div>
+    <section
+      id="skills"
+      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-40 py-20"
+      style={{ transform: "scale(0.9" }}
+    >
+      <p className="md:text-3xl mb-12 ">Making App with modern technologies</p>
 
-    <div>
-<h1 className=" text-2xl md:text-5xl font-bold mt-20 pb-16">Additional technologies and skills
-</h1>
-<div className='grid grid-cols-2 md:grid-cols-3 gap-y-9 items-center '>
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {Skill_data.map((image, index) => (
+          <SkillDataProvider
+            key={index}
+            src={image.Image}
+            width={image.width}
+            height={image.height}
+            index={index}
+          />
+        ))}
+      </div>
 
-{techs.map((tech,idx)=>(
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {Frontend_skill.map((image, index) => (
+          <SkillDataProvider
+            key={index}
+            src={image.Image}
+            width={image.width}
+            height={image.height}
+            index={index}
+          />
+        ))}
+      </div>
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {Backend_skill.map((image, index) => (
+          <SkillDataProvider
+            key={index}
+            src={image.Image}
+            width={image.width}
+            height={image.height}
+            index={index}
+          />
+        ))}
+      </div>
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {Full_stack.map((image, index) => (
+          <SkillDataProvider
+            key={index}
+            src={image.Image}
+            width={image.width}
+            height={image.height}
+            index={index}
+          />
+        ))}
+      </div>
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {Other_skill.map((image, index) => (
+          <SkillDataProvider
+            key={index}
+            src={image.Image}
+            width={image.width}
+            height={image.height}
+            index={index}
+          />
+        ))}
+      </div>
 
-    <div key={idx} className='flex items-center   '><div className='bg-gradient w-[26px] h-[26px] rounded-full me-6 '> </div><p className='text-lg lg:text-2xl font-bold'>{tech}</p></div>
-))}
-</div>
+      <div className="w-full h-full absolute">
+        <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
+          <video
+            className="w-full h-auto"
+            preload="false"
+            playsInline
+            loop
+            muted
+            autoPlay
+            src="src/assets/cards-video.webm"
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
 
-    </div>
-</section>
-</>  )
-}
+export default Technologies;

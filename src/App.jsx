@@ -20,7 +20,7 @@ function App() {
   ])
   return (
     <>
-    <div className='bg-background bg-opacity-98 text-white  '>
+    <div className='bg-[#030014]  bg-opacity-98 text-white font-myFont '>
     <RouterProvider router={routes}/>
 
       </div>

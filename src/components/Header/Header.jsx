@@ -1,30 +1,51 @@
+import { Link } from "react-router-dom";
+import { Socials } from "../../../constants";
 import React from "react";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
 
-
-export default function Header() {
+const Navbar = () => {
   return (
-    <div className="px-10 grid grid-cols-2 items-center    md:grid-cols-3 gap- fixed top-0 bg-gray-900 w-full z-40 ">
-      <h1 className=" py-10 font-semibold text-xl lg:text-3xl ">
-        J.K. Portofolio{" "}
-      </h1>
-      <div className="py-2 flex gap-12 md:gap-3 lg:gap-12 text-xl  font-semibold order-1 items-center md:justify-center">
-        <a href="#" className="text-nowrap link-loader">About me</a>
-        <a href="#projects" className="text-nowrap   link-loader">Projects</a>
-        <a href={'#technologies'} className="text-nowrap link-loader">Technologies</a>
-      </div>
-      <div className="text-3xl flex gap-x-4 md:order-1 ms-10 ">
-        <a href='https://www.linkedin.com/in/jacklin-kmal' className="hover:scale-125" ><FaLinkedin />
-        </a>
-        <a  href="https://github.com/settings/profile" className="hover:scale-125"><FaGithub />
-        </a>
-        <a  href="https://www.facebook.com/profile.php?id=100005125537767&locale=ar_AR" className="hover:scale-125 transation-100">
-        <FaFacebook />
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
+      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
+        <a
+          href="#about"
+          className="h-auto w-auto flex flex-row items-center"
+        >
+       
 
+          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
+Welcome to me          </span>
         </a>
+
+        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
+          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 ">
+            <a href="#about" className="cursor-pointer hover:scale-110">
+              About me
+            </a>
+            <a href="#skills" className="cursor-pointer  hover:scale-110">
+              Skills
+            </a>
+            <a href="#projects" className="cursor-pointer  hover:scale-110 ">
+              Projects
+            </a>
+          </div>
+        </div>
+
+        <div className="flex flex-row gap-5">
+          {Socials.map((social) => (
+            <Link to={social.url} key={social.name}>
+              
+            <img
+              src={social.src}
+              alt={social.name}
+              width={24}
+              height={24}
+            />
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   );
-}
+};
+
+export default Navbar;
