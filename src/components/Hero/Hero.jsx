@@ -28,12 +28,12 @@ function Hero() {
               <div className="mt-10 gap-y-30 order-2 sm:order-1">
                 <div className="text-center md:text-left">
                   <span className=" text-4xl lg:text-6xl font-bold bg-gradient bg-clip-text text-transparent">
-                    Jacklien kamal{" "}
+                    Jacklien kamal {" "}
                   </span>
                   
                   <p className="text-[38px] md:text-4xl py-10 text-6xl font-bold  bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent ">
                     <span className=" text-white ">I'm a </span>
-                    Frontend Developer
+                    Frontend Developer 
                   </p>
 
                   <p className="text-gray-400  dropShadow">
