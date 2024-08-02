@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="#about"
-          className="h-auto w-auto flex flex-row items-center"
+          className="h-auto w-auto md:flex md:flex-row items-center hidden "
         >
        welcome
 
@@ -16,7 +16,7 @@ const Navbar = () => {
            </span>
         </a>
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
+        <div className="w-[700px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 ">
             <a href="#about" className="cursor-pointer hover:scale-110">
               About me
@@ -40,9 +40,8 @@ const Navbar = () => {
             <img
               src={social.src}
               alt={social.name}
-              width={24}
-              height={24}
-              className="rounded-full"
+           
+              className="rounded-full w-16 md:w-8"
             />
             </Link>
           ))}
