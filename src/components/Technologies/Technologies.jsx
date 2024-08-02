@@ -12,7 +12,7 @@ const Technologies = () => {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-40 py-20 mx-2"
+      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-40 py-20 mx-1"
       style={{ transform: "scale(0.9" }}
     >
       <p className="md:text-3xl mb-12 ">Making App with modern technologies</p>
