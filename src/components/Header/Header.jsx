@@ -10,10 +10,10 @@ const Navbar = () => {
           href="#about"
           className="h-auto w-auto flex flex-row items-center"
         >
-       
+       welcome
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-Welcome to me          </span>
+           </span>
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
@@ -26,6 +26,9 @@ Welcome to me          </span>
             </a>
             <a href="#projects" className="cursor-pointer  hover:scale-110 ">
               Projects
+            </a>
+            <a href="#contact" className="cursor-pointer  hover:scale-110 ">
+              Contact
             </a>
           </div>
         </div>

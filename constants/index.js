@@ -31,6 +31,12 @@ export const Skill_data = [
       height: 80,
     },
     {
+      skill_name: "React",
+      Image: "src/assets/react.png",
+      width: 80,
+      height: 80,
+    },
+    {
       skill_name: "Next js 13",
       Image: "src/assets/next.png",
       width: 80,
@@ -44,20 +50,14 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "Mongo db",
-      Image: "src/assets/mongodb.png",
-      width: 40,
-      height: 40,
-    },
-  
+   
   ];
   
   
   export const Socials = [
     {
       name: "Git",
-      src: "src/assets/github.png",
+      src: "src/assets/githubLogo.png",
       url:'https://github.com/Jacklien-Kamal'
     },
     {
@@ -74,7 +74,13 @@ export const Skill_data = [
   
   
   export const Frontend_skill = [
-    
+    {
+      skill_name: "Angular",
+      Image: "src/assets/angular.svg",
+      width: 80,
+      height: 80,
+    },
+  
 
     {
       skill_name: "Material UI",
@@ -82,12 +88,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "React",
-      Image: "src/assets/react.png",
-      width: 80,
-      height: 80,
-    },
+    
     {
       skill_name: "Redux",
       Image: "src/assets/redux.png",
@@ -124,15 +125,15 @@ export const Skill_data = [
   export const Backend_skill = [
   
     {
-      skill_name: "Express js",
-      Image: "src/assets/express.png",
+      skill_name: "Jasmine",
+      Image: "src/assets/jasmine.png",
       width: 80,
       height: 80,
     },
   
     {
-      skill_name: "Postger SQL",
-      Image: "src/assets/postger.png",
+      skill_name: "Webpack",
+      Image: "src/assets/webpack.png",
       width: 70,
       height: 70,
     },
@@ -159,12 +160,7 @@ export const Skill_data = [
       height: 70,
     },
     
-    {
-      skill_name: "Docker",
-      Image: "src/assets/docker.webp",
-      width: 70,
-      height: 70,
-    },
+ 
   
     {
       skill_name: "Figma",

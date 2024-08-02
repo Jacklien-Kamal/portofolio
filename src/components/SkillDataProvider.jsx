@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer'
 
 
 
-const SkillDataProvider = ({ src, width, height, index} ) => {
+const SkillDataProvider = ({ src, width, height, index,title} ) => {
     const {ref, inView} = useInView({
         triggerOnce: true
     })
@@ -18,6 +18,7 @@ const SkillDataProvider = ({ src, width, height, index} ) => {
     const animationDelay = 0.3
   return (
   <motion.div
+  className='flex flex-col items-center'
   ref={ref}
   initial="hidden"
   variants={imageVariants}
@@ -31,6 +32,7 @@ width={width}
 height={height}
 alt='skill image'
     />
+    <p>{title}</p>
   </motion.div>
   )
 }

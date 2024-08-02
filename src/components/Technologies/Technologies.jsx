@@ -24,6 +24,7 @@ const Technologies = () => {
             src={image.Image}
             width={image.width}
             height={image.height}
+            title={image.skill_name}
             index={index}
           />
         ))}
@@ -36,6 +37,7 @@ const Technologies = () => {
             src={image.Image}
             width={image.width}
             height={image.height}
+            title={image.skill_name}
             index={index}
           />
         ))}
@@ -47,6 +49,7 @@ const Technologies = () => {
             src={image.Image}
             width={image.width}
             height={image.height}
+            title={image.skill_name}
             index={index}
           />
         ))}
@@ -58,6 +61,7 @@ const Technologies = () => {
             src={image.Image}
             width={image.width}
             height={image.height}
+            title={image.skill_name}
             index={index}
           />
         ))}
@@ -69,6 +73,7 @@ const Technologies = () => {
             src={image.Image}
             width={image.width}
             height={image.height}
+            title={image.skill_name}
             index={index}
           />
         ))}
