@@ -28,11 +28,11 @@ const SkillDataProvider = ({ src, width, height, index,title} ) => {
   >
     <img
 src={src}
-width={width}
-height={height}
+className={`w-[30px] h-[30px] md:w-[60px] md:h-[60px]`}
+
 alt='skill image'
     />
-    <p>{title}</p>
+    <p className='text-[8px] md:text-lg'>{title}</p>
   </motion.div>
   )
 }

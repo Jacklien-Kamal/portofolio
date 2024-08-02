@@ -54,7 +54,7 @@ function Hero() {
                 </a>
               </div>
 
-              <div className="group order-1  relative w-52 sm:w-[200px] md:w-[250px] md:h-[250px] lg:w-[500px] lg:h-[500px] mx-auto  z-20">
+              <div className="group order-1  relative w-40 sm:w-[200px] md:w-[250px] md:h-[250px] lg:w-[500px] lg:h-[500px] mx-auto  z-20">
                 <img
                   src="https://avatars.githubusercontent.com/u/159618517?s=400&u=2f08910d8387547f283ac704c842c1c75aed19bc&v=4"
                   width={300}
@@ -65,9 +65,9 @@ function Hero() {
 
                 <img
                   src="https://yarmoiseev.github.io/frontend_lp_portfolio/img/big-ellipse.svg"
-                  className="absolute -left-28 top-16 sm:z-0 sm:left-7 sm:top-64 md:-left-9  lg:top-28 lg:-left-44 animate-spin group-hover:scale-110 duration-200 "
+                  className="absolute -left-16 top-16 sm:z-0 sm:left-7 sm:top-64 md:-left-9 lg:top-28 lg:-left-44 animate-spin group-hover:scale-110 duration-200 "
                 />
-                <div className="absolute   -right-12 bottom-32  md:-bottom-52 md:-right-16 md:w-28 md:h-28 lg:w-36 lg:h-36 lg:bottom-24 lg:right-12 w-24 h-24 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 animate-spin group-hover:scale-110 duration-500 shadow-custom-light"></div>
+                <div className="absolute -right-10 bottom-24  md:-bottom-52 md:-right-16 md:w-28 md:h-28 lg:w-36 lg:h-36 lg:bottom-24 lg:right-12 w-24 h-24 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 animate-spin group-hover:scale-110 duration-500 shadow-custom-light"></div>
               </div>
             </div>
           </section>

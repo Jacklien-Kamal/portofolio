@@ -12,14 +12,14 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Java Script",
+      skill_name: "JavaScript",
       Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png",
       width: 80,
       height: 80,
     },
     
         {
-          skill_name: "Type Script",
+          skill_name: "TypeScript",
           Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
           width: 80,
           height: 80,
@@ -31,7 +31,7 @@ export const Skill_data = [
           height: 80,
         },
         {
-          skill_name: "Next js 13",
+          skill_name: "Next js ",
           Image: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png",
           width: 80,
           height: 80,
@@ -68,7 +68,7 @@ export const Skill_data = [
   
   export const Frontend_skill = [
     {
-      skill_name: "Tailwind Css",
+      skill_name: "Tailwind",
       Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png",
       width: 80,
       height: 80,
@@ -76,7 +76,7 @@ export const Skill_data = [
     
     
     {
-      skill_name: "Material UI",
+      skill_name: "MaterialUI",
       Image: "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
       width: 80,
       height: 80,
