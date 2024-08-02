@@ -12,39 +12,33 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] pt-20 ">
+    <div className=" w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] pt-20 ">
         <div className="w-full flex flex-col items-center justify-center m-auto">
             <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                 
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Community</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Youtube</span>    
-                    </p>
+                   
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
+                        <Link to='https://github.com/Jacklien-Kamal' className="text-[15px] ml-[6px] z-20">Github</Link>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Discord</span>    
+                        <Link to={'https://discord.gg/YXKWmpCA'} className="text-[15px] ml-[6px] z-20">Discord</Link>    
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
-                    </p>
+                   
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
+                        <Link to='https://x.com/Jackline_kmal' className="text-[15px] ml-[6px] z-20">Twitter</Link>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
+                        <RxLinkedinLogo />
+                        <Link to='https://www.linkedin.com/in/jacklin-kmal' className="text-[15px] ml-[6px] z-20    ">Linkedin</Link>    
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
@@ -59,7 +53,7 @@ const Footer = () => {
                     </p>
                     <a href='mailto:jaclienkamal442@gmail.com' className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <a href='mailto:jaclienkamal442@gmail.com' className="text-[15px] ml-[6px]">Jacklienkamal442@gmail.com</a>    
+                        <a href='mailto:jaclienkamal442@gmail.com' className="text-[15px] ml-[6px] z-20">Jacklienkamal442@gmail.com</a>    
                     </a>
                 </div>
             </div>
