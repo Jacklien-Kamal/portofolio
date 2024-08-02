@@ -42,6 +42,7 @@ const Navbar = () => {
               alt={social.name}
               width={24}
               height={24}
+              className="rounded-full"
             />
             </Link>
           ))}
