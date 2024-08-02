@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="  items-center justify-center relative">
       
       <form id="contact" className="w-[50%] mx-auto mt-40 grid gap-3 ">
-        <h2 className="text-[40px] font-semibold text-tr  ansparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-12 text-center">
+        <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-12 text-center">
           Contact Me
         </h2>
         <div className="mb-3   z-20">
