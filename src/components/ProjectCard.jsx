@@ -4,14 +4,14 @@ import React from "react";
 
 const ProjectCard = ({ src, title, description ,livePre,gitLink}) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] font-sans z-20">
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] font-sans ">
       <img
         src={src}
         alt={title}
         className="  w-full h-52 "
       />
 
-      <div className="relative p-4 ">
+      <div className="relative p-4 z-20">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300 text-ellipsis overflow-clip  h-[70px]">{description}. . . . . .</p>
         <a
