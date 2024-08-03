@@ -26,7 +26,7 @@ function Hero() {
         <section id="about" className="w-full xl:ps-40  pt-20 mt-20 xxs:w-[200%] ">
             <div className=" grid  grid-cols-1  mt-10 gap-y-24 sm:grid-cols-2 md:gap-y-1 sm:mx-20 md:mx-24">
               <div className="mt-10 gap-y-30 order-2 sm:order-1">
-                <div className="text-center md:text-left mx-7">
+                <div className="text-center md:text-left mx-3">
                   <span className=" text-4xl lg:text-6xl font-bold bg-gradient bg-clip-text text-transparent">
                     Jacklien kamal {" "}
                   </span>
@@ -36,7 +36,7 @@ function Hero() {
                     Frontend Developer 
                   </p>
 
-                  <p className="text-gray-400  dropShadow">
+                  <p className="text-gray-400  dropShadow mx-4">
                     I design and code beautifully simple things, and I love what I
                     do. A Result-Oriented Web Developer building and managing
                     Websites and Web Applications that leads to the success of the
