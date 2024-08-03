@@ -114,7 +114,7 @@ const Contact = () => {
 
     return (
       <div className="items-center justify-center ">
-        <form onSubmit={handleSendEmail} id="contact" className="w-full md:w-[60%] mx-auto mt-40 grid gap-3 ">
+        <form onSubmit={handleSendEmail} id="contact" className="w-[80%] md:w-[60%] mx-auto mt-40 grid gap-3 ">
           <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-12 text-center">
             Contact Me
           </h2>
