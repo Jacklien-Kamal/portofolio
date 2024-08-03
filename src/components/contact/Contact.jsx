@@ -167,7 +167,7 @@ const Contact = () => {
         <Toaster position="bottom-center" reverseOrder={true} />
       
       </form>
-      <div className="absolute  left-1 top-20">
+      <div className="absolute  -left-56  -top-12 lg:left-1 ">
         <img
           src="https://cdn.dribbble.com/users/366584/screenshots/3326343/media/95e547319e81749c6e903be252337151.gif"
           className="opacity-20   "
