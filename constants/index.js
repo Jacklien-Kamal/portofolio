@@ -70,7 +70,7 @@ export const Skill_data = [
     {
       skill_name: "Tailwind",
       Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png",
-      width: 80,
+      width: 70,
       height: 80,
     },
     
@@ -78,8 +78,8 @@ export const Skill_data = [
     {
       skill_name: "MaterialUI",
       Image: "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
-      width: 80,
-      height: 80,
+      width: 70,
+      height: 70,
     },
     
     
@@ -88,8 +88,8 @@ export const Skill_data = [
     {
       skill_name: "Bootstrap",
       Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png",
-      width: 80,
-      height: 80,
+      width: 70,
+      height: 70,
     },
     {
       skill_name: "Mongo db",
@@ -100,8 +100,8 @@ export const Skill_data = [
     {
       skill_name: "Node js",
       Image: "https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2019/node-js-tutorial.png",
-      width: 70,
-      height: 70,
+      width: 65,
+      height: 65,
     },
     
     {
@@ -117,14 +117,14 @@ export const Skill_data = [
     {
       skill_name: "Jasmine",
       Image: "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Logo_jasmine.svg/180px-Logo_jasmine.svg.png",
-      width: 80,
-      height: 80,
+      width: 70,
+      height: 70,
     },
     {
       skill_name: "Redux",
       Image: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
-      width: 80,
-      height: 80,
+      width: 70,
+      height: 70,
     },
     {
       skill_name: "Webpack",
