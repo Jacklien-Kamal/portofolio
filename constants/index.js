@@ -35,14 +35,7 @@ export const Skill_data = [
           Image: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png",
           width: 80,
           height: 80,
-        },
-        
-        {
-          skill_name: "Angular",
-          Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/512px-Angular_full_color_logo.svg.png",
-          width: 80,
-          height: 80,
-        },
+        }
         
       ];
       
@@ -67,6 +60,20 @@ export const Skill_data = [
   
   
   export const Frontend_skill = [
+    
+        
+        {
+          skill_name: "Angular",
+          Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/512px-Angular_full_color_logo.svg.png",
+          width: 80,
+          height: 80,
+        },
+        {
+          skill_name: "React Native",
+          Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207",
+          width: 70,
+          height: 70,
+        },
     {
       skill_name: "Tailwind",
       Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png",
@@ -91,9 +98,14 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
+ 
+  ];
+  
+  export const Backend_skill = [
+    
     {
-      skill_name: "Mongo db",
-      Image: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+      skill_name: "Firebase",
+      Image: "https://i3.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Firebase_icon.svg/1200px-Firebase_icon.svg.png?resize=758%2C758&ssl=1",
       width: 70,
       height: 70,
     },
@@ -103,16 +115,6 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
-    
-    {
-      skill_name: "Firebase",
-      Image: "https://i3.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Firebase_icon.svg/1200px-Firebase_icon.svg.png?resize=758%2C758&ssl=1",
-      width: 70,
-      height: 70,
-    },
-  ];
-  
-  export const Backend_skill = [
   
     {
       skill_name: "Jasmine",
@@ -120,12 +122,8 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "Redux",
-      Image: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
-      width: 80,
-      height: 80,
-    },
+    
+    
     {
       skill_name: "Webpack",
       Image: "https://miro.medium.com/v2/resize:fit:542/format:webp/0*QWJsNmIu81bhqgds.png",
@@ -138,14 +136,19 @@ export const Skill_data = [
   ];
   
   export const Full_stack = [
+  
     {
-      skill_name: "React Native",
-      Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207",
+      skill_name: "Redux",
+      Image: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Mongo db",
+      Image: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
       width: 70,
       height: 70,
     },
-    
- 
   
     {
       skill_name: "Figma",

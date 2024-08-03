@@ -51,10 +51,8 @@ const Footer = () => {
                       
                         <span className="text-[15px] ml-[6px]">Learning about me</span>    
                     </p>
-                    <a href='mailto:jaclienkamal442@gmail.com' className="flex flex-row items-center my-[15px] cursor-pointer">
                   
                         <a href='mailto:jaclienkamal442@gmail.com' className="text-[15px] ml-[6px] z-20">Jacklienkamal442@gmail.com</a>    
-                    </a>
                 </div>
             </div>
 
