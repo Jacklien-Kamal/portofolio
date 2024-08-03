@@ -18,18 +18,18 @@ const Navbar = () => {
 
         <div className="w-[700px]  h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 ">
-            <Link href="#about" className="cursor-pointer hover:scale-110 text-xs sm:text-lg">
+            <a to="#about" className="cursor-pointer hover:scale-110 text-xs sm:text-lg">
               About me
-            </Link>
-            <Link href="#skills" className="cursor-pointer  hover:scale-110 text-xs sm:text-lg">
+            </a>
+            <a href="#skills" className="cursor-pointer  hover:scale-110 text-xs sm:text-lg">
               Skills
-            </Link>
-            <Link href="#projects" className="cursor-pointer  hover:scale-110 text-xs sm:text-lg">
+            </a>
+            <a href="#projects" className="cursor-pointer  hover:scale-110 text-xs sm:text-lg">
               Projects
-            </Link>
-            <Link href="#contact" className="cursor-pointer  hover:scale-110 text-xs sm:text-lg">
+            </a>
+            <a href="#contact" className="cursor-pointer  hover:scale-110 text-xs sm:text-lg">
               Contact
-            </Link>
+            </a>
           </div>
         </div>
 
