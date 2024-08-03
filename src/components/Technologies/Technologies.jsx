@@ -17,7 +17,7 @@ const Technologies = () => {
     >
       <p className="md:text-3xl mb-12 ">Making App with modern technologies</p>
 
-      <div className="grid grid-cols-7 gap-4 flex-wrap mt-4 md:gap-5 items-center">
+      <div className="grid grid-cols-7 gap-5 flex-wrap mt-4 md:gap-5 items-center">
         {Skill_data.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -54,7 +54,7 @@ const Technologies = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row justify- flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row flex-wrap mt-4 gap-5 items-center">
         {Full_stack.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -66,7 +66,7 @@ const Technologies = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row justify- flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row  flex-wrap mt-4 gap-5 items-center">
         {Other_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
