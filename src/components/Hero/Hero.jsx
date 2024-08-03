@@ -31,9 +31,9 @@ function Hero() {
                     Jacklien kamal {" "}
                   </span>
                   
-                  <p className=" md:text-4xl py-10 text-2xl font-bold  bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent ">
-                    <span className=" text-white ">I'm a </span>
-                    Frontend Developer 
+                  <p className=" md:text-4xl py-10 text-3xl font-bold  bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent ">
+                    <span className=" text-white ">I'm a  </span>
+                      Frontend Developer 
                   </p>
 
                   <p className="text-gray-400  dropShadow mx-4">

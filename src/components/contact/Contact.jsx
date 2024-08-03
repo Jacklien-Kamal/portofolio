@@ -113,7 +113,7 @@ const Contact = () => {
     };
 
     return (
-      <div className="items-center justify-center mx-8 ">
+      <div className="items-center justify-center mx-80 ">
         <form onSubmit={handleSendEmail} id="contact" className="w-full md:w-[60%] mx-auto mt-40 grid gap-3 ">
           <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-12 text-center">
             Contact Me
@@ -126,7 +126,7 @@ const Contact = () => {
               value={details.name}
               onChange={handleDetailsChange}
               name="name"
-              className="w-full py-2 h-12 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
+              className="w-full py-2 h-16 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
             />
           </div>
           <div className="mb-3 z-20">
@@ -137,7 +137,7 @@ const Contact = () => {
               onChange={handleDetailsChange}
               placeholder="Email"
               name="email"
-              className="w-full py-2 h-12 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
+              className="w-full py-2 h-16 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
             />
           </div>
           <div className="mb-3 z-20">
@@ -147,7 +147,7 @@ const Contact = () => {
               name="message"
               value={details.message}
               onChange={handleDetailsChange}
-              className="w-full py-2 h-32 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
+              className="w-full py-2 h-36 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
             />
           </div>
           <div className="flex justify-center">
