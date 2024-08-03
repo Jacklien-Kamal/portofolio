@@ -28,7 +28,7 @@ const SkillDataProvider = ({ src, width, height, index,title} ) => {
   >
     <img
 src={src}
-className={`w-[50px] h-[40px] md:w-[60px] md:h-[60px]`}
+className={`w-[40px] h-[45px] md:w-[60px] md:h-[60px]`}
 
 alt='skill image'
     />

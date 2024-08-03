@@ -17,7 +17,7 @@ const Technologies = () => {
     >
       <p className="md:text-3xl mb-12 ">Making App with modern technologies</p>
 
-      <div className="grid grid-cols-6 justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="grid grid-cols-7 justify-  flex-wrap mt-4 gap-2 items-center">
         {Skill_data.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -30,7 +30,7 @@ const Technologies = () => {
         ))}
       </div>
 
-      <div className="grid grid-cols-5 justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="grid grid-cols-6 justify- flex-wrap mt-4 gap-3 items-center">
         {Frontend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -42,7 +42,7 @@ const Technologies = () => {
           />
         ))}
       </div>
-      <div className="grid grid-cols-4 justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="grid grid-cols-3 justify- flex-wrap mt-4 gap-5 items-center">
         {Backend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -54,7 +54,7 @@ const Technologies = () => {
           />
         ))}
       </div>
-      <div className="grid grid-cols-3  justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify- flex-wrap mt-4 gap-5 items-center">
         {Full_stack.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -66,7 +66,7 @@ const Technologies = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify- flex-wrap mt-4 gap-5 items-center">
         {Other_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
