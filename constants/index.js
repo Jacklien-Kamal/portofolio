@@ -150,7 +150,7 @@ export const Skill_data = [
     {
       skill_name: "Figma",
       Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/400px-Figma-logo.svg.png",
-      width: 50,
+      width: 40,
       height: 50,
     },
   
