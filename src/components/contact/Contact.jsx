@@ -83,85 +83,97 @@
 // };
 
 // export default Contact;
-import { useState } from 'react';
-import { sendCustomEmail } from './email';
-import { Toaster } from 'react-hot-toast';
+import { useState } from "react";
+import { sendCustomEmail } from "./email";
+import { Toaster } from "react-hot-toast";
 
 const Contact = () => {
-    const [details, setDetails] = useState({
-      name: '',
-      message: '',
-      email: '',
+  const [details, setDetails] = useState({
+    name: "",
+    message: "",
+    email: "",
+  });
+
+  const handleDetailsChange = (event) => {
+    const { name, value } = event.target;
+    setDetails((prevDetails) => ({
+      ...prevDetails,
+      [name]: value,
+    }));
+  };
+
+  const handleSendEmail = (e) => {
+    e.preventDefault();
+    sendCustomEmail(details);
+    setDetails({
+      name: "",
+      message: "",
+      email: "",
     });
+  };
 
-    const handleDetailsChange = (event) => {
-      const { name, value } = event.target;
-      setDetails((prevDetails) => ({
-        ...prevDetails,
-        [name]: value,
-      }));
-    };
-
-    const handleSendEmail = (e) => {
-      e.preventDefault();
-      sendCustomEmail(details);
-      setDetails({
-        name: '',
-        message: '',
-        email: '',
-      });
-    };
-
-    return (
-      <div className="items-center justify-center ">
-        <form onSubmit={handleSendEmail} id="contact" className="w-[80%] md:w-[60%] mx-auto mt-40 grid gap-3 ">
-          <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-12 text-center">
-            Contact Me
-          </h2>
-          <div className="mb-3 z-20">
-            <input
+  return (
+    <div className="flex mx-auto items-center justify-center relative">
+       
+      <form
+        onSubmit={handleSendEmail}
+        id="contact"
+        className="w-[80%] md:w-[50%] mx-auto mt-40 grid gap-3 "
+      >
+        <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 pb-12 text-center">
+          Contact Me
+        </h2>
+        <div className="mb-3 z-20">
+          <input
             required
-              type="text"
-              placeholder="Your name"
-              value={details.name}
-              onChange={handleDetailsChange}
-              name="name"
-              className="w-full py-2 h-12 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
-            />
-          </div>
-          <div className="mb-3 z-20">
-            <input
+            type="text"
+            placeholder="Your name"
+            value={details.name}
+            onChange={handleDetailsChange}
+            name="name"
+            className="w-full py-2 h-12 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
+          />
+        </div>
+        <div className="mb-3 z-20">
+          <input
             required
-              type="email"
-              value={details.email}
-              onChange={handleDetailsChange}
-              placeholder="Email"
-              name="email"
-              className="w-full py-2 h-12 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
-            />
-          </div>
-          <div className="mb-3 z-20">
-            <textarea
+            type="email"
+            value={details.email}
+            onChange={handleDetailsChange}
+            placeholder="Email"
+            name="email"
+            className="w-full py-2 h-12 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
+          />
+        </div>
+        <div className="mb-3 z-20">
+          <textarea
             required
-              placeholder="Your message"
-              name="message"
-              value={details.message}
-              onChange={handleDetailsChange}
-              className="w-full py-2 h-32 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
-            />
-          </div>
-          <div className="flex justify-center">
-            <button type="submit" className="bg-gradient-to-r from-purple-500 to-cyan-500 text-xl mb-20 font-bold rounded-full px-3 py-1 my-2 inline-block transform transition-transform duration-300 ease-in-out shadow-custom-light hover:scale-100 hover:shadow-more-custom-light z-20">
-              Send a message
-            </button>
-          </div>
-          <Toaster
-  position="bottom-center"
-  reverseOrder={true}
-/>
-        </form>
+            placeholder="Your message"
+            name="message"
+            value={details.message}
+            onChange={handleDetailsChange}
+            className="w-full py-2 h-32 text-sm text-gray-200 placeholder-gray-400 bg-inherit border border-gray-100 rounded shadow px-3"
+          />
+        </div>
         
+        <div className="flex justify-center">
+          <button
+            type="submit"
+            className="bg-gradient-to-r from-purple-500 to-cyan-500 text-xl mb-20 font-bold rounded-full px-3 py-1 my-2 inline-block transform transition-transform duration-300 ease-in-out shadow-custom-light hover:scale-100 hover:shadow-more-custom-light z-20"
+          >
+            Send a message
+          </button>
+        </div>
+        <Toaster position="bottom-center" reverseOrder={true} />
+      
+      </form>
+      <div className="absolute  left-1 top-20">
+        <img
+          src="https://cdn.dribbble.com/users/366584/screenshots/3326343/media/95e547319e81749c6e903be252337151.gif"
+          className="opacity-20   "
+        />
       </div>
+    </div>
   );
 };
 
