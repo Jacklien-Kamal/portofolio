@@ -6,7 +6,7 @@ import {
   Skill_data,
 } from "../../../constants";
 import React from "react";
-import SkillDataProvider from "../SkillDataProvider";
+import SkillDataProvider from "../SubComponents/SkillDataProvider";
 
 const Technologies = () => {
   return (
