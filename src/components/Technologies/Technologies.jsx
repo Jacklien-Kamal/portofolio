@@ -88,7 +88,7 @@ const Technologies = () => {
             loop
             muted
             autoPlay
-            src="https://video.fcai21-3.fna.fbcdn.net/v/t42.1790-2/453654930_1207968130233764_2827588045108834233_n.mp4?_nc_cat=105&ccb=1-7&_nc_sid=55d0d3&efg=eyJybHIiOjMwMCwicmxhIjo1MTIsInZlbmNvZGVfdGFnIjoic3ZlX3NkIiwidmlkZW9faWQiOjE0Mzk4NDc2ODAwMzIxMjd9&_nc_ohc=Nau1G2_W-5EQ7kNvgHtjHOM&_nc_rml=0&_nc_ht=video.fcai21-3.fna&oh=00_AYDxr3yarftyXkSTRy-E5D7vU_1lssYmZWJCwVfJ5wLqcA&oe=66B29CFD"
+            src="https://res.cloudinary.com/dk2uh7sho/video/upload/v1729618228/AQMGcbDhzJs8tFsh6YMj2pVG14AQtY0z8Ak8Dn1P4ZeJrEFkIEqwKRaU4_ZWNjhptpLBgLRjZwcPXUM7NjIuZZeT_avyiag.mp4"
           />
         </div>
       </div>
