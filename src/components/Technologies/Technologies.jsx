@@ -55,7 +55,7 @@ const Technologies = () => {
         ))}
       </div>
       <div className="grid grid-cols-2 mt-4 gap-5 items-center ">
-        {other.map((image, index) => (
+        {others.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
