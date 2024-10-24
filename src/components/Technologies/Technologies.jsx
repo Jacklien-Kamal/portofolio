@@ -1,8 +1,8 @@
 import {
   Backend_skill,
   Frontend_skill,
-  Full_stack,
-  Other_skill,
+  Mobile_Skill,
+  other,
   Skill_data,
 } from "../../../constants";
 import React from "react";
@@ -55,7 +55,7 @@ const Technologies = () => {
         ))}
       </div>
       <div className="grid grid-cols-2 mt-4 gap-5 items-center ">
-        {Full_stack.map((image, index) => (
+        {other.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
@@ -67,7 +67,7 @@ const Technologies = () => {
         ))}
       </div>
       <div className="flex flex-row  flex-wrap mt-4 gap-5 items-center">
-        {Other_skill.map((image, index) => (
+        {Mobile_Skill.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
