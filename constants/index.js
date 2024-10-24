@@ -112,7 +112,7 @@ export const Skill_data = [
     },
   ];
   
-  export const Backend_skill = [
+  export const Test_skill = [
   
     {
       skill_name: "Jasmine",
@@ -137,15 +137,14 @@ export const Skill_data = [
    
   ];
   
-  export const Full_stack = [
+  export const others = [
+  
     {
-      skill_name: "React Native",
-      Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207",
-      width: 70,
-      height: 70,
+      skill_name: "Github",
+      Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/192px-Github-desktop-logo-symbol.svg.png?20200316183539",
+      width: 60,
+      height: 60,
     },
-    
- 
   
     {
       skill_name: "Figma",
@@ -158,13 +157,13 @@ export const Skill_data = [
   
   
   
-  export const Other_skill = [
-    {
-      skill_name: "Github",
-      Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/192px-Github-desktop-logo-symbol.svg.png?20200316183539",
-      width: 60,
-      height: 60,
-    },
+  export const Mobile_skill = [
+   {
+      skill_name: "React Native",
+      Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207",
+      width: 70,
+      height: 70,
+    }
   ];
   
   
@@ -178,5 +177,7 @@ export const Skill_data = [
     {img:'https://www.upwork.com/att/download/portfolio/persons/uid/1747570654730399744/profile/projects/files/0aa15133-3c94-4210-a203-57cb34f1dce4',title:'LinkedIn Clone',desc:'Responsive Html,CSS,JavaScript Full clone website ',livePre:'#',gitLink:'https://github.com/Jacklien-Kamal/Linked-In-Clone'},
     {img:'https://www.upwork.com/att/download/portfolio/persons/uid/1747570654730399744/profile/projects/files/d09ade15-c265-4203-82df-b9eb0f8e7ffb',title:'Developer Portfolio',desc:'Responsive React portfolio using react js and taillwind css  ',livePre:'https://portofolio-xiw4.vercel.app/',gitLink:'https://github.com/Jacklien-Kamal/portofolio'},
     {img:'https://www.upwork.com/att/download/portfolio/persons/uid/1747570654730399744/profile/projects/files/43ed4b8d-959e-4ffe-94fc-bb8ba55c08ad',title:'Resturant Website',desc:'HTML/CSS layout for an online Resturant store',livePre:'#',gitLink:'https://github.com/Jacklien-Kamal/restaurant-'},
+    {img:'https://res.cloudinary.com/dk2uh7sho/image/upload/v1729808713/Screenshot_2024-10-25_012311_jbqpo9.png',title:'TOD Movie Website',desc:'Responsive ReactJS Website with admin dashboard together using Firebase as Backend',livePre:'https://my-movie-app-sable.vercel.app/',gitLink:'https://github.com/Jacklien-Kamal/my-movie-app/'},
+    {img:'https://res.cloudinary.com/dk2uh7sho/image/upload/v1729809247/Screenshot_2024-10-25_013346_uep6dy.png',title:'Pharmacy Website',desc:'Responsive ReactJS Website with admin dashboard together using Firebase as Backend',livePre:'https://66b74450e930a1159f459360--grand-kitsune-151c45.netlify.app/',gitLink:'https://github.com/Jacklien-Kamal/Pharmacy'},
   
   ]
