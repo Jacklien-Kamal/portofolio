@@ -1,7 +1,7 @@
 import {
   Test_skill,
   Frontend_skill,
-  Mobile_Skill,
+  Mobile_skill,
   others,
   Skill_data,
 } from "../../../constants";
