@@ -155,6 +155,16 @@ export const Skill_data = [
   
   ];
   
+   export const Mobile_skill = [
+  
+     {
+      skill_name: "React Native",
+      Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207",
+      width: 70,
+      height: 70,
+    }
+  
+  ];
   
   
   // export const Mobile_skill = [
