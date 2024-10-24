@@ -1,7 +1,7 @@
 import {
   Test_skill,
   Frontend_skill,
-  // Mobile_skill,
+  Mobile_skill,
   others,
   Skill_data,
 } from "../../../constants";
@@ -66,8 +66,8 @@ const Technologies = () => {
           />
         ))}
       </div>
-{/*       <div className="flex flex-row  flex-wrap mt-4 gap-5 items-center">
-        {Mobile_Skill.map((image, index) => (
+      <div className="flex flex-row  flex-wrap mt-4 gap-5 items-center">
+        {Mobile_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
             src={image.Image}
@@ -77,7 +77,7 @@ const Technologies = () => {
             index={index}
           />
         ))}
-      </div> */}
+      </div>
 
       <div className="w-full h-full absolute">
         <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
