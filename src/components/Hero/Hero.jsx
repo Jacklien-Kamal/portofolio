@@ -46,7 +46,7 @@ function Hero() {
               </div>
               <div className="order-3 md:order-2 lg:order-2 flex justify-center md:justify-start">
                 <a
-                  href="https://drive.google.com/file/d/1OzFOL_N88csji9P1hK80QcXJ47Wh-IKz/view?usp=drive_link"
+                  href="https://res.cloudinary.com/dk2uh7sho/image/upload/v1732589610/Jacklien_Kamal_CV-1_eotiee.pdf"
                   download
                   className="bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl mb-20 font-bold rounded-full md:w-[250px] px-7 py-4  md:py-6 md:px-10 inline-block transform transition-transform duration-500 ease-in-out shadow-custom-light hover:scale-100  hover:shadow-more-custom-light z-20"
                 >
