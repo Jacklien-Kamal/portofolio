@@ -46,8 +46,7 @@ function Hero() {
               </div>
               <div className="order-3 md:order-2 lg:order-2 flex justify-center md:justify-start">
                 <a
-                  href="https://your-vercel-domain.com/my-document.pdf"
-                  download
+                  href="https://your-vercel-domain.com/my-document.pdf"  download
                   className="bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl mb-20 font-bold rounded-full md:w-[250px] px-7 py-4  md:py-6 md:px-10 inline-block transform transition-transform duration-500 ease-in-out shadow-custom-light hover:scale-100  hover:shadow-more-custom-light z-20"
                 >
                   Download CV
