@@ -189,5 +189,6 @@ export const Skill_data = [
     {img:'https://www.upwork.com/att/download/portfolio/persons/uid/1747570654730399744/profile/projects/files/43ed4b8d-959e-4ffe-94fc-bb8ba55c08ad',title:'Resturant Website',desc:'HTML/CSS layout for an online Resturant store',livePre:'#',gitLink:'https://github.com/Jacklien-Kamal/restaurant-'},
     {img:'https://res.cloudinary.com/dk2uh7sho/image/upload/v1729808713/Screenshot_2024-10-25_012311_jbqpo9.png',title:'TOD Movie Website',desc:'Responsive ReactJS Website with admin dashboard together using Firebase as Backend',livePre:'https://my-movie-app-sable.vercel.app/',gitLink:'https://github.com/Jacklien-Kamal/my-movie-app/'},
     {img:'https://res.cloudinary.com/dk2uh7sho/image/upload/v1729809247/Screenshot_2024-10-25_013346_uep6dy.png',title:'Pharmacy Website',desc:'Responsive ReactJS Website with admin dashboard together using Firebase as Backend',livePre:'https://66b74450e930a1159f459360--grand-kitsune-151c45.netlify.app/',gitLink:'https://github.com/Jacklien-Kamal/Pharmacy'},
-  
+      {img:'https://res.cloudinary.com/dk2uh7sho/image/upload/v1733575827/Screenshot_2024-11-05_015637_gikrvl.png',title:'Arabic Flower Shop',desc:'Responsive Landing page Using HTML,CSS,JS with animations and smoothing Efeects',livePre:'https://flowershop-lake.vercel.app/',gitLink:'https://github.com/Jacklien-Kamal/Flower-site-template'},
+
   ]
