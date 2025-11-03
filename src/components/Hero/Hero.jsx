@@ -63,7 +63,7 @@ function Hero() {
                 />
 
                 <img
-                  src="https://yarmoiseev.github.io/frontend_lp_portfolio/img/big-ellipse.svg"
+                  src="blob:https://web.whatsapp.com/9b71e86c-0c6f-401c-9174-25bd0d847962"
                   className="absolute -left-16 top-16 sm:z-0 sm:left-7 sm:top-64 md:-left-9 lg:top-28 lg:-left-44 animate-spin group-hover:scale-110 duration-200 "
                 />
                 <div className="absolute -right-10 bottom-24  md:-bottom-52 md:-right-16 md:w-28 md:h-28 lg:w-36 lg:h-36 lg:bottom-24 lg:right-12 w-24 h-24 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 animate-spin group-hover:scale-110 duration-500 shadow-custom-light"></div>
