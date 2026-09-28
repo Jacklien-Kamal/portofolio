@@ -14,7 +14,7 @@ const ProjectCard = ({ src, title, description ,livePre,gitLink}) => {
 
       <div className="relative p-4 z-20">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300 text-ellipsis overflow-clip  h-[70px]">{description}. . . . . .</p>
+        <p className="mt-2 text-gray-300 text-ellipsis overflow-clip  h-[80px]">{description} </p>
         <Link
           to={livePre}
             target="_blank"
