@@ -12,10 +12,10 @@ function Hero() {
     const interval = setInterval(() => {
       setDisplayedText((prev) => prev + fullText[index]);
       index++;
-      if (index === fullText.length-1) {
+      if (index === fullText.length - 1) {
         clearInterval(interval);
       }
-    }, 100 ); // Adjust the interval time as needed
+    }, 100); // Adjust the interval time as needed
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, []);
 
@@ -23,56 +23,56 @@ function Hero() {
     <>
 
       {/* Profile */}
-        <section id="about" className="w-full xl:ps-40  pt-20 mt-20 xxs:w-[200%] ">
-            <div className=" grid  grid-cols-1  mt-10 gap-y-24 sm:grid-cols-2 md:gap-y-1 sm:mx-20 md:mx-24">
-              <div className="mt-10 gap-y-30 order-2 sm:order-1">
-                <div className="text-center md:text-left mx-3">
-                  <span className=" text-3xl lg:text-6xl font-bold bg-gradient bg-clip-text text-transparent">
-                    Jacklien kamal {" "}
-                  </span>
-                  
-                  <p className=" md:text-6xl py-10 text-3xl m font-bold  bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent ">
-                    {/* <span className=" text-white ">I'm a  </span> */}
-                   A   Frontend Developer <span className=" text-white ">  Web & Mobile </span> 
-                  </p>
+      <section id="about" className="w-full xl:ps-40  pt-20 mt-20 xxs:w-[200%] ">
+        <div className=" grid  grid-cols-1  mt-10 gap-y-9 sm:grid-cols-2 md:gap-y-1 sm:mx-20 md:mx-24">
+          <div className="mt-10 gap-y-30 order-2 sm:order-1">
+            <div className="text-center md:text-left mx-3">
+              <span className=" text-3xl lg:text-6xl font-bold bg-gradient bg-clip-text text-transparent">
+                Jacklien kamal {" "}
+              </span>
 
-                  <p className="text-gray-400  dropShadow mx-4 md:text-xl">
+              <p className=" md:text-6xl py-10 text-3xl m font-bold  bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent ">
+                {/* <span className=" text-white ">I'm a  </span> */}
+                A   Frontend Developer <span className=" text-white ">  Web & Mobile </span>
+              </p>
+
+              <p className="text-gray-400  dropShadow mx-4 md:text-xl">
                 Software Developer with 3 years of experience building responsive web applications using React.js and Next.js, and
-mobile applications using React Native. Experienced in developing modern, maintainable applications with a strong
-focus on performance, usability, and clean code.
+                mobile applications using React Native. Experienced in developing modern, maintainable applications with a strong
+                focus on performance, usability, and clean code.
 
-                  </p>
-                </div>
-              </div>
-              <div className="order-3 md:order-2 lg:order-2 flex justify-center md:justify-start px-6">
-                <a
-                  href="https://portofolio-five-phi.vercel.app/Jacklien-cv.pdf"  download
-                  className="bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl mb-20 font-bold rounded-full md:w-[250px] px-7 py-4  md:py-5 md:px-9 inline-block transform transition-transform duration-500 ease-in-out shadow-custom-light hover:scale-100  hover:shadow-more-custom-light z-20"
-                >
-                  Download CV
-                </a>
-              </div>
+              </p>
+            </div>
+          </div>
+          <div className="order-3 md:order-2 lg:order-2 flex justify-center md:justify-start px-6">
+            <a
+              href="https://portofolio-five-phi.vercel.app/Jacklien-cv.pdf" download
+              className="bg-gradient-to-r from-purple-500 to-cyan-500 md:text-2xl text-xl mb-20 font-bold rounded-full md:w-[250px] px-7 py-4  md:py-5 md:px-9 inline-block transform transition-transform duration-500 ease-in-out shadow-custom-light hover:scale-100  hover:shadow-more-custom-light z-20"
+            >
+              Download CV
+            </a>
+          </div>
 
-              <div className="group order-1  relative w-40 sm:w-[200px] md:w-[250px] md:h-[250px] lg:w-[500px] lg:h-[500px] mx-auto  z-20">
-                <img
-                  src="https://avatars.githubusercontent.com/u/159618517?s=400&u=2f08910d8387547f283ac704c842c1c75aed19bc&v=4"
-                  width={300}
-                  height={300}
-                  alt="Profile"
-                  className="relative top- sm:mt-36  sm:-left-6 md:left-20 lg:mt-16 lg:left-20 custom-gradient-border rounded-full object-cover z-10 shadow-custom-light"
-                />
+          <div className="group order-1  relative w-40 sm:w-[200px] md:w-[250px] md:h-[250px] lg:w-[500px] lg:h-[500px] mx-auto  z-20">
+            <img
+              src="https://avatars.githubusercontent.com/u/159618517?s=400&u=2f08910d8387547f283ac704c842c1c75aed19bc&v=4"
+              width={300}
+              height={300}
+              alt="Profile"
+              className="relative top- sm:mt-36  sm:-left-6 md:left-20 lg:mt-16 lg:left-20 custom-gradient-border rounded-full object-cover z-10 shadow-custom-light"
+            />
 
-                {/* <img
+            {/* <img
                   src="blob:https://web.whatsapp.com/9b71e86c-0c6f-401c-9174-25bd0d847962"
                   className="absolute -left-16 top-16 sm:z-0 sm:left-7 sm:top-64 md:-left-9 lg:top-28 lg:-left-44 animate-spin group-hover:scale-110 duration-200 "
                 /> */}
-                <div className="absolute -right-10 bottom-24  md:-bottom-52 md:-right-16 md:w-28 md:h-28 lg:w-36 lg:h-36 lg:bottom-24 lg:right-12 w-24 h-24 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 animate-spin group-hover:scale-110 duration-500 shadow-custom-light"></div>
-              </div>
-            </div>
-          </section>
-      <Technologies/>
-      <Projects/>
-      <Contact/>
+            <div className="absolute -right-10 bottom-24  md:-bottom-52 md:-right-16 md:w-28 md:h-28 lg:w-36 lg:h-36 lg:bottom-24 lg:right-12 w-24 h-24 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 animate-spin group-hover:scale-110 duration-500 shadow-custom-light"></div>
+          </div>
+        </div>
+      </section>
+      <Technologies />
+      <Projects />
+      <Contact />
     </>
   );
 }
