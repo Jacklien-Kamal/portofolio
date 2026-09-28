@@ -37,10 +37,10 @@ function Hero() {
                   </p>
 
                   <p className="text-gray-400  dropShadow mx-4">
-                    I design and code beautifully simple things, and I love what I
-                    do. A Result-Oriented Web Developer building and managing
-                    Websites and Web Applications that leads to the success of the
-                    overall product
+                Software Developer with 3 years of experience building responsive web applications using React.js and Next.js, and
+mobile applications using React Native. Experienced in developing modern, maintainable applications with a strong
+focus on performance, usability, and clean code.
+
                   </p>
                 </div>
               </div>
