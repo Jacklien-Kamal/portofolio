@@ -31,12 +31,12 @@ function Hero() {
                     Jacklien kamal {" "}
                   </span>
                   
-                  <p className=" md:text-4xl py-10 text-3xl font-bold  bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent ">
-                    <span className=" text-white ">I'm a  </span>
-                      Frontend Developer 
+                  <p className=" md:text-6xl py-10 text-3xl m font-bold  bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent ">
+                    {/* <span className=" text-white ">I'm a  </span> */}
+                   A   Frontend Developer <span className=" text-white ">  Web & Mobile </span> 
                   </p>
 
-                  <p className="text-gray-400  dropShadow mx-4">
+                  <p className="text-gray-400  dropShadow mx-4 md:text-xl">
                 Software Developer with 3 years of experience building responsive web applications using React.js and Next.js, and
 mobile applications using React Native. Experienced in developing modern, maintainable applications with a strong
 focus on performance, usability, and clean code.
@@ -44,10 +44,10 @@ focus on performance, usability, and clean code.
                   </p>
                 </div>
               </div>
-              <div className="order-3 md:order-2 lg:order-2 flex justify-center md:justify-start">
+              <div className="order-3 md:order-2 lg:order-2 flex justify-center md:justify-start px-6">
                 <a
                   href="https://portofolio-five-phi.vercel.app/Jacklien-cv.pdf"  download
-                  className="bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl mb-20 font-bold rounded-full md:w-[250px] px-7 py-4  md:py-6 md:px-10 inline-block transform transition-transform duration-500 ease-in-out shadow-custom-light hover:scale-100  hover:shadow-more-custom-light z-20"
+                  className="bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl mb-20 font-bold rounded-full md:w-[250px] px-7 py-4  md:py-5 md:px-9 inline-block transform transition-transform duration-500 ease-in-out shadow-custom-light hover:scale-100  hover:shadow-more-custom-light z-20"
                 >
                   Download CV
                 </a>
