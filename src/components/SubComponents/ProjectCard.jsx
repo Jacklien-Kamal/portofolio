@@ -23,6 +23,7 @@ const ProjectCard = ({ src, title, description ,livePre,gitLink}) => {
         >
           Live Preview
         </Link>
+        {gitLink&&
         <Link
           to={gitLink}
             target="_blank"
@@ -30,7 +31,7 @@ const ProjectCard = ({ src, title, description ,livePre,gitLink}) => {
           className="px-3 py-1 z-20 text-lg  ms-2 mt-3  border border-white rounded-full inline-block transform transition-transform duration-300 hover:scale-110"
         >
           Github
-        </Link>
+        </Link>}
       </div>
     </div>
   );

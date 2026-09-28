@@ -30,7 +30,7 @@ const Technologies = () => {
         ))}
       </div>
 
-      <div className="grid grid-cols-6  flex-wrap mt-4 gap-5 mx-4 items-center">
+      <div className="grid grid-cols-7  flex-wrap mt-4 gap-5 mx-4 items-center">
         {Frontend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -42,7 +42,7 @@ const Technologies = () => {
           />
         ))}
       </div>
-      <div className="grid grid-cols-3 flex-wrap mt-4 gap-5 items-center mx-4 md:mx-10">
+      <div className="grid grid-cols-5 flex-wrap mt-4 gap-3 items-center mx-4 md:mx-10">
         {Test_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -54,7 +54,7 @@ const Technologies = () => {
           />
         ))}
       </div>
-      <div className="grid grid-cols-2 mt-4 gap-5 items-center ">
+      <div className="grid grid-cols-2 mt-4 gap-12 items-center ">
         {others.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -66,7 +66,7 @@ const Technologies = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row  flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row  flex-wrap mt-4 gap-12 items-center">
         {Mobile_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
