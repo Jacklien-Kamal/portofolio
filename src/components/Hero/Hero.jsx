@@ -33,7 +33,7 @@ function Hero() {
 
               <p className=" md:text-6xl py-10 text-3xl m font-bold  bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent ">
                 {/* <span className=" text-white ">I'm a  </span> */}
-                A   Frontend Developer <span className=" text-white ">  Web & Mobile </span>
+                A   Frontend Developer <span className=" text-white "><br></br>  Web & Mobile </span>
               </p>
 
               <p className="text-gray-400  dropShadow mx-4 md:text-xl">
