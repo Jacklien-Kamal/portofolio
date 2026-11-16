@@ -28,15 +28,15 @@ function Hero() {
           <div className="mt-10 gap-y-30 order-2 sm:order-1">
             <div className="text-center md:text-left mx-3">
               <span className=" text-3xl lg:text-6xl font-bold bg-gradient bg-clip-text text-transparent">
-                Jacklien kamal {" "}
+                Jacklien Kamal {" "}
               </span>
 
               <p className=" md:text-6xl py-10 text-3xl m font-bold  bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent ">
                 {/* <span className=" text-white ">I'm a  </span> */}
-                A Front-end Developer <span className=" text-white "><br></br>  Web & Mobile </span>
+                A Front-end Developer <span className=" text-white text-3xl font-mono "><br></br>  Web & Mobile Development </span>
               </p>
 
-              <p className="text-gray-400  dropShadow mx-4 md:text-xl">
+              <p className="text-gray-400  dropShadow  md:text-xl">
                 Software Developer with 3 years of experience building responsive web applications using React.js and Next.js, and
                 mobile applications using React Native. Experienced in developing modern, maintainable applications with a strong
                 focus on performance, usability, and clean code.
@@ -44,10 +44,10 @@ function Hero() {
               </p>
             </div>
           </div>
-          <div className="order-3 md:order-2 lg:order-2 flex justify-center md:justify-start px-6 mt-[5%] ">
+          <div className="order-3 md:order-2 lg:order-2 flex justify-center md:justify-start px-2 md:mt-[5%]  ">
             <a
               href="https://portofolio-five-phi.vercel.app/Jacklien-cv.pdf" download
-              className="bg-gradient-to-r from-purple-500 to-cyan-500 md:text-2xl text-xl mb-20 font-bold rounded-full md:w-[250px] px-7 py-4  md:py-5 md:px-9 inline-block transform transition-transform duration-500 ease-in-out shadow-custom-light hover:scale-100  hover:shadow-more-custom-light z-20"
+              className="bg-gradient-to-r from-purple-500 to-cyan-500 md:text-2xl text-xl mb-20 font-bold rounded-full md:w-[250px] px-7 py-4  md:py-4 md:px-8 inline-block transform transition-transform duration-500 ease-in-out shadow-custom-light hover:scale-100  hover:shadow-more-custom-light z-20"
             >
               Download CV
             </a>
