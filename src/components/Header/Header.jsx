@@ -39,7 +39,7 @@ const Navbar = () => {
           <div className="hidden md:flex w-full  h-full flex-row items-center justify-between md:mx-20">
             <div
               dir="ltr"
-              className="flex flex-row-reverse items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] py-1 px-2 lg:px-[20px] lg:py-[10px] rounded-full text-gray-200"
+              className="flex flex-row items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] py-1 px-2 lg:px-[20px] lg:py-[10px] rounded-full text-gray-200"
             >
               <a href="#about" className="cursor-pointer hover:scale-110 text-sm lg:text-lg">
                 About Us
