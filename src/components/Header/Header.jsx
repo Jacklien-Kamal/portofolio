@@ -39,7 +39,7 @@ const Navbar = () => {
           <div className="hidden md:flex w-full  h-full flex-row items-center justify-between md:mx-20">
             <div
               dir="ltr"
-              className="flex flex-row items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] py-1 px-2 lg:px-[20px] lg:py-[10px] rounded-full text-gray-200"
+              className="flex flex-row items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] py-2 px-2.5 lg:px-[20px] lg:py-[10px] rounded-full text-gray-200"
             >
               <a href="#about" className="cursor-pointer hover:scale-110 text-sm lg:text-lg">
                 About Us
@@ -51,12 +51,9 @@ const Navbar = () => {
                 Skills
               </a>
               <a href="#contact" className="cursor-pointer hover:scale-110 text-sm lg:text-lg">
-                Contact Us
+                Contact 
               </a>
-            </div>
-          </div>
-
-          <div className="hidden md:flex flex-row gap-1 sm:gap-4">
+               <div className="hidden md:flex flex-row gap-1 sm:gap-4">
             {Socials.map((social) => (
               <a
                 key={social.name}
@@ -68,11 +65,16 @@ const Navbar = () => {
                 <img
                   src={social.src}
                   alt={social.name}
-                  className="rounded-full w-10 lg:w-8"
+                  className="rounded-full w-10 md:w-5 lg:w-8"
                 />
               </a>
             ))}
           </div>
+            </div>
+            
+          </div>
+
+         
 
           <a href="#about" className="md:hidden text-gray-200 font-semibold">
             welcome
