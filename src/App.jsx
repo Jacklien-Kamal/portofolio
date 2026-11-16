@@ -6,12 +6,15 @@ import Projects from './components/Projects/Projects'
 import Technologies from './components/Technologies/Technologies'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import AppLayout from '../AppLayout'
+import ProjectDetails from './Screens/ProjectDetails'
 
 function App() {
   const routes=createBrowserRouter([
     { path:'/',element:<AppLayout/>,children:[
       {index:true,element:<Hero/>},
       {path:'projects',element:<Projects/>},
+      {path:'projects/:id',element:<ProjectDetails/>},
+
       {path:'technologies',element:<Technologies/>},
   
     ]}

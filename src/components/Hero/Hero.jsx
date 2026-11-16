@@ -23,8 +23,8 @@ function Hero() {
     <>
 
       {/* Profile */}
-      <section id="about" className="w-full xl:ps-40  pt-20 mt-20 xxs:w-[200%] ">
-        <div className=" grid  grid-cols-1  mt-10 gap-y-9 sm:grid-cols-2 md:gap-y-1 sm:mx-20 md:mx-24">
+      <section id="about" className="w-full xl:ps-40  pt-20 mt-1 xxs:w-[200%] ">
+        <div className=" grid  grid-cols-1  mt-10 gap-y-9 sm:grid-cols-2 md:gap-y-1 sm:mx-8 ">
           <div className="mt-10 gap-y-30 order-2 sm:order-1">
             <div className="text-center md:text-left mx-3">
               <span className=" text-3xl lg:text-6xl font-bold bg-gradient bg-clip-text text-transparent">
@@ -44,7 +44,7 @@ function Hero() {
               </p>
             </div>
           </div>
-          <div className="order-3 md:order-2 lg:order-2 flex justify-center md:justify-start px-6">
+          <div className="order-3 md:order-2 lg:order-2 flex justify-center md:justify-start px-6 mt-[5%] ">
             <a
               href="https://portofolio-five-phi.vercel.app/Jacklien-cv.pdf" download
               className="bg-gradient-to-r from-purple-500 to-cyan-500 md:text-2xl text-xl mb-20 font-bold rounded-full md:w-[250px] px-7 py-4  md:py-5 md:px-9 inline-block transform transition-transform duration-500 ease-in-out shadow-custom-light hover:scale-100  hover:shadow-more-custom-light z-20"
